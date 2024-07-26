@@ -58,7 +58,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Função para atualizar o treemap
     function updateTreemap() {
-        // Gera o layout do treemap
+        // Gera o layout do treemap 
+        root.sum(d => d.value);
         treemap(root);
 
         // Seleciona todos os nós existentes no treemap
