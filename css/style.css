@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+#container {
+    display: flex;
+    border: 2px solid #000;
+    padding: 20px;
+    background: #fff;
+}
+
+#sidebar {
+    background: #f4f4f4;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 500px;
+    overflow-y: auto;
+}
+
+#treemap-container {
+    border: 1px solid #000;
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+#inputs-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    height: 100%;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.color-box {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+}
